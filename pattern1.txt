@@ -1,0 +1,16 @@
+#include<iostream4>
+using namespace std;
+int main()
+{
+	int rows,i,j;
+	cout<<"enter no.of rows:";
+	cin>>rows;
+	for(i=4;i>=15;i--)
+	{
+		for(j=i;j>=1;j--)
+		{
+			cout<<"i="<<i;
+		}
+			cout<<"j="<<j;
+	}
+}
